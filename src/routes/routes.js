@@ -1,10 +1,10 @@
 import express from 'express';
-import data from '../data/gamingCatalog.json' assert { type: 'json' };
+import { readJsonFile } from '../utils/readJsonFile.js';
 import { playStationRouter } from './playStation.js';
 
 export const router = express.Router();
-
 router.get('/games', async (req, res) => {
+  const data = await readJsonFile();
   res.json({'playstation':data});
 });
 router.use('/games/playstation', playStationRouter);
