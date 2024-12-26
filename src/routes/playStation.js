@@ -1,5 +1,5 @@
 import express from 'express';
-import { readJsonFile } from '../utils/readJsonFile';
+import { readJsonFile } from '../utils/readJsonFile.js';
 export const playStationRouter = express.Router();
 
 playStationRouter.get('/', async (req, res) => {
