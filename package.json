@@ -4,9 +4,8 @@
   "type": "module",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js",
-    "build": "babel src --out-dir dist",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "build": "babel src --out-dir dist"
   },
   "keywords": [
     "api",
