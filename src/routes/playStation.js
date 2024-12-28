@@ -8,7 +8,8 @@ playStationRouter.get('/', async (req, res) => {
 });
 playStationRouter.get('/:id', async (req, res) => {
   const data = await readJsonFile();
-  const game = data.find(game => game.id === req.params.id);
+  const { id } = req.params
+  const game = data.find(game => game.id === id);
   if (game) {
     res.json(game);
   } else {
