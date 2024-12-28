@@ -4,9 +4,10 @@
   "type": "module",
   "main": "dist/server.js",
   "scripts": {
+    "dev":"nodemon src/server.js",
     "start": "node dist/server.js",
     "build": "babel src --out-dir dist && npm run copy-data",
-    "copy-data": "xcopy src\\data dist\\data /E /I /Y"
+    "copy-data": "cp -r src/data dist/data"
   },
   "keywords": [
     "api",
