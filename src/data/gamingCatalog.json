@@ -12,6 +12,9 @@
         "id": "#1708796412346",
         "description": "A genre-defining RPG that follows Cloud Strife in a quest to save the planet.",
         "rating": 9.7,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349857/games/ff7.webp"
+        ],
         "details": {
           "developer": "Square",
           "release_date": "1997-01-31",
@@ -24,6 +27,9 @@
         "id": "#1708796412347",
         "description": "Survival horror game set in a mansion filled with terrifying creatures.",
         "rating": 9.0,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349857/games/resident-evil.webp"
+        ],
         "details": {
           "developer": "Capcom",
           "release_date": "1996-03-22",
@@ -46,6 +52,9 @@
         "id": "#1708796412349",
         "description": "Action-adventure game set in an open world inspired by the west coast of the United States.",
         "rating": 9.5,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349857/games/gta.webp"
+        ],
         "details": {
           "developer": "Rockstar Games",
           "release_date": "2004-10-26",
@@ -58,6 +67,9 @@
         "id": "#1708796412350",
         "description": "Adventure game where you face giant colossi in an epic quest.",
         "rating": 9.7,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349857/games/shadow-of-the-colossus.webp"
+        ],
         "details": {
           "developer": "Team Ico",
           "release_date": "2005-10-18",
@@ -80,6 +92,9 @@
         "id": "#1708796412352",
         "description": "An emotional story of survival in a post-apocalyptic world.",
         "rating": 9.8,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349857/games/the-last-of-us.webp"
+        ],
         "details": {
           "developer": "Naughty Dog",
           "release_date": "2013-06-14",
@@ -92,6 +107,9 @@
         "id": "#1708796412353",
         "description": "Cinematic action-adventure in search of the mythical city of Ubar.",
         "rating": 9.6,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349857/games/uncharted3.webp"
+        ],
         "details": {
           "developer": "Naughty Dog",
           "release_date": "2011-11-01",
@@ -114,6 +132,9 @@
         "id": "#1708796412355",
         "description": "Experience Kratos's journey as a father in the Norse realm.",
         "rating": 9.8,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349858/games/god-of-war.webp"
+        ],
         "details": {
           "developer": "Santa Monica Studio",
           "release_date": "2018-04-20",
@@ -126,6 +147,9 @@
         "id": "#1708796412356",
         "description": "A post-apocalyptic adventure with robotic creatures and breathtaking landscapes.",
         "rating": 9.6,
+        "images":[
+          "https://res.cloudinary.com/dxpkfx5b4/image/upload/v1735349857/games/horizon-zero-dawn.webp"
+        ],
         "details": {
           "developer": "Guerrilla Games",
           "release_date": "2017-02-28",
